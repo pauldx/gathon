@@ -1,0 +1,84 @@
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1a1a2e', 'primaryTextColor': '#e0e0e0', 'primaryBorderColor': '#4E79A7', 'lineColor': '#4E79A7'}}}%%
+flowchart LR
+    subgraph INPUT["📥 Inputs"]
+        I1[Bash Command]
+        I2[MCP Tool Call]
+        I3[Memory Query]
+    end
+
+    subgraph CTP["🔧 CLI Token Parse\nsrc/gathon/cli_token_parse/"]
+        C1[Hook intercept\nPreToolUse]
+        C2{Filter\nRegistry\n76 filters}
+        C3[git_diff · pytest\ndocker · kubectl\nterraform · npm\n+ 70 more]
+        C4[Parallel eval\nThreadPoolExecutor]
+        C5[Telemetry\ncli_parser.db]
+        C1 --> C2
+        C2 --> C3
+        C3 --> C4
+        C4 --> C5
+    end
+
+    subgraph COMPRESS["🗜️ Text Compression\nsrc/gathon/compress.py"]
+        X1[MCP Response\ntext fields]
+        X2{Intensity}
+        X3[lite\n10–15%]
+        X4[full\n20–30%]
+        X5[ultra\n30–45%]
+        X6[code/URLs\nuntouched]
+        X1 --> X2
+        X2 --> X3
+        X2 --> X4
+        X2 --> X5
+        X3 & X4 & X5 -.-> X6
+    end
+
+    subgraph PACK["📦 Context Packing\nsrc/gathon/packer.py"]
+        K1[100+ candidates]
+        K2[Score by\nrelevance · recency\ndependency · access]
+        K3[Greedy knapsack\ntoken budget]
+        K4[Top-N packed\n70–90% reduction]
+        K1 --> K2 --> K3 --> K4
+    end
+
+    subgraph MEMORY["🧠 Cross-Session Memory\nsrc/gathon/memory/"]
+        ME1[Observations\nBM25 + fuzzy search]
+        ME2[ROI scoring\naccess × importance]
+        ME3[One recall\nvs many tool calls]
+        ME1 --> ME2 --> ME3
+    end
+
+    subgraph PREFETCH["🔮 Predictive Prefetch\nsrc/gathon/prefetch.py"]
+        PF1[Markov chain\ntransition model]
+        PF2[Predict next\nMCP tool]
+        PF3[Pre-load\nbefore needed]
+        PF1 --> PF2 --> PF3
+    end
+
+    subgraph DISCLOSURE["🔍 Progressive Disclosure\ndetail_level param"]
+        DI1[index\n~50 tok/result]
+        DI2[full\n~200 tok/result]
+        DI3[agent decides\nvia _token_meta]
+        DI1 & DI2 --> DI3
+    end
+
+    I1 --> CTP
+    I2 --> COMPRESS
+    I2 --> PACK
+    I3 --> MEMORY
+    I2 --> PREFETCH
+    I2 --> DISCLOSURE
+
+    CTP --> OUT1["✅ 40–80% token\nreduction on CLI output"]
+    COMPRESS --> OUT2["✅ 10–45% reduction\non MCP responses"]
+    PACK --> OUT3["✅ 70–90% reduction\non context size"]
+    MEMORY --> OUT4["✅ Avoid repeated\ntool call chains"]
+    PREFETCH --> OUT5["✅ Zero-latency\ntool results"]
+    DISCLOSURE --> OUT6["✅ Pay only for\ndetail you need"]
+
+    style INPUT fill:#1a1a2e,stroke:#4E79A7
+    style CTP fill:#16213e,stroke:#06b6d4
+    style COMPRESS fill:#16213e,stroke:#22c55e
+    style PACK fill:#16213e,stroke:#f59e0b
+    style MEMORY fill:#16213e,stroke:#8E44AD
+    style PREFETCH fill:#16213e,stroke:#F28E2B
+    style DISCLOSURE fill:#16213e,stroke:#4E79A7

@@ -1,0 +1,25 @@
+"""CTP filters — import all to trigger registration."""
+
+from gathon.cli_token_parse.filters import (  # noqa: F401
+    cargo_filter,
+    cat_filter,
+    cloud_filter,
+    db_filter,
+    docker_filter,
+    dotnet_filter,
+    gh_filter,
+    git_diff,
+    git_log,
+    git_ops,
+    git_status,
+    go_filter,
+    grep_filter,
+    js_filter,
+    kubectl_filter,
+    ls_filter,
+    pytest_filter,
+    python_filter,
+    ruby_filter,
+    system_filter,
+    terraform_filter,
+)

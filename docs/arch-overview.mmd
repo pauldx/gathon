@@ -1,0 +1,62 @@
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1a1a2e', 'primaryTextColor': '#e0e0e0', 'primaryBorderColor': '#4E79A7', 'lineColor': '#4E79A7', 'secondaryColor': '#16213e', 'tertiaryColor': '#0f3460'}}}%%
+graph TB
+    subgraph AI_AGENT["🤖 AI Agent (Claude Code)"]
+        A1[Claude Code CLI]
+        A2[MCP Client]
+    end
+
+    subgraph MCP_LAYER["⚙️ MCP Server Layer — 58 Tools"]
+        M1[Query & Search Tools]
+        M2[Impact & Review Tools]
+        M3[Analysis Tools]
+        M4[Memory & Session Tools]
+        M5[Sandbox & Symbols Tools]
+    end
+
+    subgraph OPT_LAYER["🗜️ Token Optimization Layer"]
+        O1[Text Compression\nlite / full / ultra]
+        O2[Context Packing\nGreedy Knapsack]
+        O3[Response Prefetch\nMarkov Chain]
+        O4[CLI Token Parse\n76 Bash Filters]
+        O5[Progressive Disclosure\nindex vs full]
+    end
+
+    subgraph GRAPH_LAYER["🕸️ Unified Knowledge Graph — SQLite"]
+        G1[Code Nodes\nfunctions · classes · files]
+        G2[Doc Nodes\nmarkdown · PDF · office]
+        G3[API Nodes\nOpenAPI specs · endpoints]
+        G4[Config Nodes\nYAML · TOML · JSON]
+        G5[Community Detection\nLouvain algorithm]
+        G6[Execution Flows\nDFS entry points]
+    end
+
+    subgraph PARSE_LAYER["📥 Multi-Pipeline Extraction"]
+        P1[Tree-sitter Parser\n20+ languages]
+        P2[Document Parser\nmarkdown · rst · html]
+        P3[PDF/Office Parser\npypdf · python-docx]
+        P4[Image/Video Parser\nClaude vision · Whisper]
+        P5[URL Fetcher\narXiv · webpage · PDF]
+        P6[OpenAPI Parser\nendpoints · schemas]
+    end
+
+    subgraph OBS_LAYER["📊 Observability Dashboard"]
+        D1[CLI Parser Telemetry\ncli_parser.db]
+        D2[Graph Telemetry\ngraph.db]
+        D3[Memory Analytics\nmemory.db]
+        D4[Session Tracking\nsessions/*.db]
+    end
+
+    A1 -->|Bash hook intercept| O4
+    A2 -->|MCP protocol| MCP_LAYER
+    MCP_LAYER -->|compress + pack| OPT_LAYER
+    OPT_LAYER -->|query| GRAPH_LAYER
+    GRAPH_LAYER -->|populated by| PARSE_LAYER
+    OPT_LAYER -.->|telemetry| OBS_LAYER
+    GRAPH_LAYER -.->|telemetry| OBS_LAYER
+
+    style AI_AGENT fill:#1a1a2e,stroke:#4E79A7
+    style MCP_LAYER fill:#16213e,stroke:#4E79A7
+    style OPT_LAYER fill:#0f3460,stroke:#22c55e
+    style GRAPH_LAYER fill:#1a1a2e,stroke:#f59e0b
+    style PARSE_LAYER fill:#16213e,stroke:#8E44AD
+    style OBS_LAYER fill:#0f3460,stroke:#ef4444

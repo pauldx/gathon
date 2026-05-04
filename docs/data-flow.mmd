@@ -1,0 +1,40 @@
+%%{init: {'theme': 'dark', 'themeVariables': {'primaryColor': '#1a1a2e', 'primaryTextColor': '#e0e0e0', 'primaryBorderColor': '#4E79A7', 'lineColor': '#4E79A7'}}}%%
+sequenceDiagram
+    participant DEV as 👤 Developer
+    participant CLI as gathon CLI
+    participant ROUTER as Router
+    participant PARSE as Parsers
+    participant STORE as UnifiedStore<br/>.gathon/graph.db
+    participant SERVER as FastMCP Server
+    participant AGENT as 🤖 Claude Agent
+
+    Note over DEV,AGENT: Phase 1 — Knowledge Graph Build
+
+    DEV->>CLI: gathon build /repo --full --compress full
+    CLI->>ROUTER: scan repository files
+    ROUTER->>PARSE: route by file type
+    Note over PARSE: code_graph pipeline → Tree-sitter<br/>gathon_doc → markdown/HTML<br/>gathon_pdf → pypdf<br/>gathon_image → Claude vision<br/>openapi_yaml → endpoint extractor
+    PARSE->>STORE: upsert_unified_node() · upsert_unified_edge()
+    STORE->>STORE: Louvain communities<br/>DFS execution flows<br/>FTS5 full-text index<br/>risk scoring
+    CLI-->>DEV: ✅ 692 nodes · 4,876 edges built
+
+    Note over DEV,AGENT: Phase 2 — MCP Server + Agent Query
+
+    DEV->>CLI: gathon serve /repo --compress ultra
+    CLI->>SERVER: FastMCP stdio server starts
+    AGENT->>SERVER: query_graph(target="AuthManager.login", detail_level="index")
+    SERVER->>STORE: BFS traversal · FTS5 search
+    STORE-->>SERVER: raw results (800 tokens)
+    SERVER->>SERVER: compress_tool_response() → 440 tokens
+    SERVER->>SERVER: attach_token_meta() → adds _token_meta
+    SERVER-->>AGENT: results + {estimated_tokens: 440, avg_per_result: 31}
+    AGENT->>AGENT: decide: need full detail?
+    AGENT->>SERVER: get_node(id, detail_level="full") — only for 2 nodes
+    SERVER-->>AGENT: full node detail (180 tokens × 2)
+
+    Note over DEV,AGENT: Phase 3 — Memory + Session Tracking
+
+    AGENT->>SERVER: memory_save(title, content, importance=0.8)
+    SERVER->>SERVER: MemoryDB.save() → ~/.gathon/memory/memory.db
+    AGENT->>SERVER: memory_search(query) — next session
+    SERVER-->>AGENT: top-5 observations (saves 3–5 tool calls)

@@ -1,0 +1,52 @@
+{
+  "queries": [
+    {
+      "id": "q1_architecture",
+      "title": "Architecture Overview",
+      "query": "What is the overall architecture of this codebase? List the main components, their responsibilities, and how they interact.",
+      "context": "architecture"
+    },
+    {
+      "id": "q2_data_flow",
+      "title": "Data Flow Analysis",
+      "query": "Trace the data flow from input processing to final output. What transformations happen at each stage?",
+      "context": "data_flow"
+    },
+    {
+      "id": "q3_error_handling",
+      "title": "Error Handling Strategy",
+      "query": "How does the codebase handle errors? What are the error handling patterns used throughout?",
+      "context": "error_handling"
+    },
+    {
+      "id": "q4_dependencies",
+      "title": "External Dependencies",
+      "query": "What are the critical external dependencies? What would break if one of them changes?",
+      "context": "dependencies"
+    },
+    {
+      "id": "q5_test_coverage",
+      "title": "Test Coverage Areas",
+      "query": "What areas of the codebase are well-tested? What areas lack test coverage?",
+      "context": "testing"
+    },
+    {
+      "id": "q6_refactor_candidates",
+      "title": "Refactoring Opportunities",
+      "query": "Which modules are good candidates for refactoring? Why?",
+      "context": "refactoring"
+    },
+    {
+      "id": "q7_security_review",
+      "title": "Security Concerns",
+      "query": "Are there any potential security vulnerabilities or risky patterns in this codebase?",
+      "context": "security"
+    },
+    {
+      "id": "q8_performance_bottlenecks",
+      "title": "Performance Analysis",
+      "query": "What are potential performance bottlenecks in this codebase?",
+      "context": "performance"
+    }
+  ]
+}

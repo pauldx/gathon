@@ -1,0 +1,319 @@
+{
+  "target_dir": "/Users/debashispaul/GIT/gathon/src",
+  "timestamp": "2026-05-03 17:12:35",
+  "graph_build_time_ms": 1664,
+  "graph_stats": {
+    "total_nodes": 692,
+    "total_edges": 4876,
+    "nodes_by_kind": {
+      "Class": 38,
+      "Document": 1,
+      "File": 85,
+      "Function": 555,
+      "Section": 8,
+      "Test": 5
+    },
+    "edges_by_kind": {
+      "CALLS": 3843,
+      "CONTAINS": 607,
+      "IMPORTS_FROM": 416,
+      "INHERITS": 10
+    },
+    "languages": [
+      "python"
+    ],
+    "files_count": 85,
+    "nodes_by_pipeline": {
+      "unknown": 8,
+      "crg_code": 683,
+      "gathon_doc": 1
+    },
+    "nodes_by_file_type": {
+      "code": 683,
+      "document": 9
+    },
+    "nodes_by_confidence": {
+      "EXTRACTED": 692
+    }
+  },
+  "pre_graph": [
+    {
+      "query_id": "q1_architecture",
+      "query_title": "Architecture Overview",
+      "input_tokens": 2615,
+      "output_tokens": 1700,
+      "timestamp": 1777842753.841666,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q1_architecture",
+      "query_title": "Architecture Overview",
+      "input_tokens": 2615,
+      "output_tokens": 1700,
+      "timestamp": 1777842753.841674,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q2_data_flow",
+      "query_title": "Data Flow Analysis",
+      "input_tokens": 2615,
+      "output_tokens": 1700,
+      "timestamp": 1777842753.841677,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q2_data_flow",
+      "query_title": "Data Flow Analysis",
+      "input_tokens": 2615,
+      "output_tokens": 1700,
+      "timestamp": 1777842753.8416781,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q3_error_handling",
+      "query_title": "Error Handling Strategy",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.8416798,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q3_error_handling",
+      "query_title": "Error Handling Strategy",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.841681,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q4_dependencies",
+      "query_title": "External Dependencies",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.841682,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q4_dependencies",
+      "query_title": "External Dependencies",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.841683,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q5_test_coverage",
+      "query_title": "Test Coverage Areas",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.8416839,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q5_test_coverage",
+      "query_title": "Test Coverage Areas",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.841685,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q6_refactor_candidates",
+      "query_title": "Refactoring Opportunities",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.841686,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q6_refactor_candidates",
+      "query_title": "Refactoring Opportunities",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.841687,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q7_security_review",
+      "query_title": "Security Concerns",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.8416882,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q7_security_review",
+      "query_title": "Security Concerns",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.841689,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q8_performance_bottlenecks",
+      "query_title": "Performance Analysis",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.84169,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q8_performance_bottlenecks",
+      "query_title": "Performance Analysis",
+      "input_tokens": 2615,
+      "output_tokens": 1500,
+      "timestamp": 1777842753.8416908,
+      "model": "claude-sonnet-4-6"
+    }
+  ],
+  "post_graph": [
+    {
+      "query_id": "q1_architecture",
+      "query_title": "Architecture Overview",
+      "input_tokens": 2600,
+      "output_tokens": 1100,
+      "timestamp": 1777842755.5111868,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q1_architecture",
+      "query_title": "Architecture Overview",
+      "input_tokens": 2600,
+      "output_tokens": 1100,
+      "timestamp": 1777842755.511192,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q2_data_flow",
+      "query_title": "Data Flow Analysis",
+      "input_tokens": 2600,
+      "output_tokens": 1100,
+      "timestamp": 1777842755.511195,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q2_data_flow",
+      "query_title": "Data Flow Analysis",
+      "input_tokens": 2600,
+      "output_tokens": 1100,
+      "timestamp": 1777842755.511196,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q3_error_handling",
+      "query_title": "Error Handling Strategy",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.5111969,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q3_error_handling",
+      "query_title": "Error Handling Strategy",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.511198,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q4_dependencies",
+      "query_title": "External Dependencies",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.511199,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q4_dependencies",
+      "query_title": "External Dependencies",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.511199,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q5_test_coverage",
+      "query_title": "Test Coverage Areas",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.5112,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q5_test_coverage",
+      "query_title": "Test Coverage Areas",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.511201,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q6_refactor_candidates",
+      "query_title": "Refactoring Opportunities",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.511202,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q6_refactor_candidates",
+      "query_title": "Refactoring Opportunities",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.511203,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q7_security_review",
+      "query_title": "Security Concerns",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.511204,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q7_security_review",
+      "query_title": "Security Concerns",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.5112052,
+      "model": "claude-sonnet-4-6"
+    },
+    {
+      "query_id": "q8_performance_bottlenecks",
+      "query_title": "Performance Analysis",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.511206,
+      "model": "claude-opus-4-7"
+    },
+    {
+      "query_id": "q8_performance_bottlenecks",
+      "query_title": "Performance Analysis",
+      "input_tokens": 2600,
+      "output_tokens": 1000,
+      "timestamp": 1777842755.511206,
+      "model": "claude-sonnet-4-6"
+    }
+  ],
+  "savings": {
+    "total_tokens_pre": 66640,
+    "total_tokens_post": 58000,
+    "token_savings": 8640,
+    "token_savings_pct": 12.97,
+    "cost_by_model": {
+      "claude-opus-4-7": {
+        "pre_cost": 0.8718,
+        "post_cost": 0.681,
+        "savings": 0.1908,
+        "savings_pct": 21.89
+      },
+      "claude-sonnet-4-6": {
+        "pre_cost": 0.2488,
+        "post_cost": 0.1854,
+        "savings": 0.0634,
+        "savings_pct": 25.47
+      }
+    }
+  }
+}

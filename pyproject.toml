@@ -1,0 +1,48 @@
+[project]
+name = "gathon"
+version = "0.1.0"
+description = "গাঁথন — Unified adaptive knowledge graph engine"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [
+    { name = "Debashis" },
+]
+dependencies = [
+    "networkx>=3.0",
+    "click>=8.0",
+    "tree-sitter>=0.23",
+    "tree-sitter-language-pack>=0.3",
+]
+
+[project.scripts]
+gathon = "gathon.cli:cli"
+
+[project.optional-dependencies]
+pdf    = ["pypdf"]
+office = ["python-docx", "openpyxl"]
+video  = ["faster-whisper"]
+svg    = ["matplotlib"]
+dev    = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "N", "W", "UP"]
+
+[tool.mypy]
+python_version = "3.11"
+strict = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,714 @@
+{
+  "/Users/debashispaul/GIT/gathon/tests/test_config_parser.py": {
+    "mtime": 1777847166.0574152,
+    "hash": "da481a4ca32a5b294907cf9df3854e38"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_dedup.py": {
+    "mtime": 1777847166.0580268,
+    "hash": "a4555d93a96f8a4f0d64191d220f0da4"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_rtk_hook.py": {
+    "mtime": 1777847970.0566742,
+    "hash": "77ccdbb6c9a1a118873383dfa8cbb7f6"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_breaking_changes.py": {
+    "mtime": 1777847166.0597465,
+    "hash": "ed01a6b48ff19cc62f36a8c6dfc1c160"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_rtk_filters.py": {
+    "mtime": 1777847970.0561962,
+    "hash": "c138ed1f4fe006c6dfddfbfcef62fd1a"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_session.py": {
+    "mtime": 1777847166.062689,
+    "hash": "2ad34d291c19ffbf79e6e7229800d4c5"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_router.py": {
+    "mtime": 1777847166.0637832,
+    "hash": "29667fcfbc802dd394e325948546d0f9"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_openapi_parser.py": {
+    "mtime": 1777847166.0642495,
+    "hash": "cce2bb0978b2b508127a0cc2006d7091"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_prompts.py": {
+    "mtime": 1777847166.0647554,
+    "hash": "785a61e657fa5d2251d6df5f08b019f1"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/__init__.py": {
+    "mtime": 1777847166.0650487,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_schema.py": {
+    "mtime": 1777847166.065512,
+    "hash": "1124f012c4bfdba600af0d7289f5405c"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_store.py": {
+    "mtime": 1777847166.066197,
+    "hash": "98402d59c30a2e5dc917b0da9c6eb675"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_hooks.py": {
+    "mtime": 1777847166.0667808,
+    "hash": "8a59cfd26f9b490eee1db9571c68e604"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_server.py": {
+    "mtime": 1777847166.0674975,
+    "hash": "e7e39edc3874d99b6999cb2ff07092cd"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_sandbox.py": {
+    "mtime": 1777847166.0683126,
+    "hash": "a2099ed5513c56ba39126b5ab7eb5845"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_adapters.py": {
+    "mtime": 1777847166.06909,
+    "hash": "c0ad94f6a0bdc266472235062bf689cd"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_store_compress.py": {
+    "mtime": 1777847166.0697448,
+    "hash": "a118b842cdbdaa3399285ae6dd4344d2"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_symbols.py": {
+    "mtime": 1777847166.0703037,
+    "hash": "e6385fe9905055fee7d2c3b2c8030609"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_incremental.py": {
+    "mtime": 1777847166.070962,
+    "hash": "b719003f63501acdf6b9b755401cdc0b"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_memory.py": {
+    "mtime": 1777847166.071724,
+    "hash": "ecf10201f3a4c59d9d4a6abfd7645d45"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_progressive.py": {
+    "mtime": 1777847166.0727527,
+    "hash": "e1ca6afaaadf140c5abe779f2d107709"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_extract.py": {
+    "mtime": 1777847166.07396,
+    "hash": "4cb291f0193c0a1fe33c51818ccf4a95"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_cli.py": {
+    "mtime": 1777847166.0746017,
+    "hash": "fe751713a8c587eaa80e973373c12d6d"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_telemetry.py": {
+    "mtime": 1777847166.075342,
+    "hash": "9b12ac64e98f02b90282553ee01b7f90"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_compress.py": {
+    "mtime": 1777847166.076277,
+    "hash": "17edc57ee1a706eb970f46135cce2471"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_export.py": {
+    "mtime": 1777847166.0772507,
+    "hash": "36f064df09fd8d425c03fa3491fc4d98"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_rtk_engine.py": {
+    "mtime": 1777847970.0556197,
+    "hash": "57726062dfb6619394e18720a3cb617f"
+  },
+  "/Users/debashispaul/GIT/gathon/tests/test_packer.py": {
+    "mtime": 1777847166.0803754,
+    "hash": "ba54fa787b132769140dccc34e3dce9a"
+  },
+  "/Users/debashispaul/GIT/gathon/benchmarks/analyze_results.py": {
+    "mtime": 1777847166.0822804,
+    "hash": "539034f99aeb546c123c010c0aab099c"
+  },
+  "/Users/debashispaul/GIT/gathon/benchmarks/benchmark_runner.py": {
+    "mtime": 1777847166.0842302,
+    "hash": "ffa47432e4e667cd7daa6ef2ac745a40"
+  },
+  "/Users/debashispaul/GIT/gathon/venv2/bin/Activate.ps1": {
+    "mtime": 1777835095.3298094,
+    "hash": "c32677ff1a8444fc54b6dfa2c40c4f84"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/store.py": {
+    "mtime": 1777847166.08644,
+    "hash": "115c4fbe07af5da3c0f539eed70acccc"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/hooks.py": {
+    "mtime": 1777847166.0875804,
+    "hash": "93f610befea9b9648574c7f274b5a490"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/server.py": {
+    "mtime": 1777847166.0921834,
+    "hash": "2f8e6eb0877c4ff30bfcd6c05b120d0c"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/__init__.py": {
+    "mtime": 1777847166.0928955,
+    "hash": "62b487bfad3718e226632f843518271e"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/telemetry.py": {
+    "mtime": 1777847166.094129,
+    "hash": "acee7c059449728068cbb6c8dff8e931"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/export.py": {
+    "mtime": 1777847166.0975072,
+    "hash": "1c423671a1f30d8f0265a16271db0aee"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/packer.py": {
+    "mtime": 1777847166.0984867,
+    "hash": "98c1cb1d1e96af6a426fcc661c2260d6"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/prompts.py": {
+    "mtime": 1777847166.0995085,
+    "hash": "d1c78eabc29efddc0917084151604475"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli.py": {
+    "mtime": 1777851187.437124,
+    "hash": "2835a0106d01b10045ea56dfbc6b2ff2"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/compress.py": {
+    "mtime": 1777847166.1037123,
+    "hash": "20458811476f1d25f355d73d3ee67090"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/prefetch.py": {
+    "mtime": 1777847166.105342,
+    "hash": "f65bef3d9d25c77417826ea53b73f07d"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/router.py": {
+    "mtime": 1777847166.1065679,
+    "hash": "0a4d5a076f166c891bae072a81c95c24"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/extract.py": {
+    "mtime": 1777847166.1078422,
+    "hash": "69bc3e7117e4acd2f0261558063dabbb"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/__main__.py": {
+    "mtime": 1777847166.1090448,
+    "hash": "ae44efa8738edded71e08c6a6c93a838"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/schema.py": {
+    "mtime": 1777847166.1100187,
+    "hash": "858a7dfce96fa82f4f15b164a37e8947"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/incremental.py": {
+    "mtime": 1777847166.1110742,
+    "hash": "0453cb39da0b2208e181af2b0c331979"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/build.py": {
+    "mtime": 1777847166.231001,
+    "hash": "d4f7e76a407917151654aade1fce9daf"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/analysis.py": {
+    "mtime": 1777847166.231965,
+    "hash": "bac042ce8851c7713f1a638f1ec55c57"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/query.py": {
+    "mtime": 1777847166.2331626,
+    "hash": "4c1e6b6c7a8026814565ae5e276fff33"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/refactor_tools.py": {
+    "mtime": 1777847166.233838,
+    "hash": "9987b7e81cd7d902623bf187e971f315"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/community_tools.py": {
+    "mtime": 1777847166.234631,
+    "hash": "9c3570b4e8d5c28bd67ebacf54c7d101"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/__init__.py": {
+    "mtime": 1777847166.2349312,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/flows_tools.py": {
+    "mtime": 1777847166.2354302,
+    "hash": "b910b53c15ae567db286a1da5e77edcd"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/review.py": {
+    "mtime": 1777847166.236101,
+    "hash": "c4f353b818f800a35ebe384bf1ebbb15"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/context.py": {
+    "mtime": 1777847166.236923,
+    "hash": "78a12dee2ef71a8bf91945519ea7c6ad"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/export_tools.py": {
+    "mtime": 1777847166.237615,
+    "hash": "316aefd98bf56ff86f2b860f060522a0"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/slicer.py": {
+    "mtime": 1777847166.2395358,
+    "hash": "03ce15f01467b1483f2069e369533039"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/breaking_changes.py": {
+    "mtime": 1777847166.2417583,
+    "hash": "4620d5e0060028e6628094a23ef52715"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/tools/registry_tools.py": {
+    "mtime": 1777847166.242721,
+    "hash": "f5d3b0839cc3880594b4bc886e512bea"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/memory/db.py": {
+    "mtime": 1777847166.244743,
+    "hash": "4723c5a15df2992f515ba73eabfd2998"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/memory/roi.py": {
+    "mtime": 1777847166.2457037,
+    "hash": "7267ee4051d2b48308faf1da793391a7"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/memory/models.py": {
+    "mtime": 1777847166.2464762,
+    "hash": "e1b3888088ec77c07a31868bac48aea5"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/memory/__init__.py": {
+    "mtime": 1777847166.2473001,
+    "hash": "527415de468960cb647556f5cfacaf73"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/memory/search.py": {
+    "mtime": 1777847166.2484422,
+    "hash": "acace6ff2e007de2a8ed047e6fc9f5d5"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/office_parser.py": {
+    "mtime": 1777847166.249835,
+    "hash": "c4c9be1af78c04312376e6659fbf2c73"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/video_parser.py": {
+    "mtime": 1777847166.2508867,
+    "hash": "d7b2159119e8fdb216ccd2c9ea7613a6"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/pdf_parser.py": {
+    "mtime": 1777847166.2517025,
+    "hash": "20336974a79f564f417ee0b5fd3e9f74"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/config_parser.py": {
+    "mtime": 1777847166.2526762,
+    "hash": "c31fca0a0dd1628b1c08a28075339c62"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/__init__.py": {
+    "mtime": 1777847166.2531087,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/url_parser.py": {
+    "mtime": 1777847166.2544086,
+    "hash": "37dd604d614c39954a3ca07b7c02720f"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/openapi_parser.py": {
+    "mtime": 1777847166.2558103,
+    "hash": "01f65724f951753bdec6fc64a9c912e6"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/image_parser.py": {
+    "mtime": 1777847166.2568629,
+    "hash": "20d7419e3a9b19af854c27d9dd9c166e"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/doc_parser.py": {
+    "mtime": 1777847166.257919,
+    "hash": "2bd564aeef92618e5a6f2f2a6d5a8ada"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/cache.py": {
+    "mtime": 1777847970.044017,
+    "hash": "a12796d4f2d60f7f8c28f2c641480360"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/hook.py": {
+    "mtime": 1777847970.0544226,
+    "hash": "64b17592e44855081d28cc00c36be3e7"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/__init__.py": {
+    "mtime": 1777847970.0437524,
+    "hash": "a52fdfaabb50efd7a09783cd5738edd5"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/telemetry.py": {
+    "mtime": 1777851187.4374666,
+    "hash": "5d5764ec53b137354872a95e9671b13e"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/engine.py": {
+    "mtime": 1777847970.0446491,
+    "hash": "e495dd04071262801b163c85948ab8fc"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/ruby_filter.py": {
+    "mtime": 1777847970.0529826,
+    "hash": "e73e0ed6e43e3e48f2501d6833752d67"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/system_filter.py": {
+    "mtime": 1777847970.0535254,
+    "hash": "74b3ab03e9a75950bd86a0eb4aec4a23"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/db_filter.py": {
+    "mtime": 1777847970.0465333,
+    "hash": "1ab5b1621f783b381acefc770a772e0b"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/git_ops.py": {
+    "mtime": 1777847970.0491652,
+    "hash": "603a4bbf776b7976dae6c4542345bcc4"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/git_diff.py": {
+    "mtime": 1777847970.048177,
+    "hash": "d8addd3747dea0d1ec82a62c6393c506"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/docker_filter.py": {
+    "mtime": 1777847970.046746,
+    "hash": "6f98643bf72b1c88a19f1233b3a4d4b5"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/grep_filter.py": {
+    "mtime": 1777847970.0504754,
+    "hash": "8be7108fa7eaf09ff70bbef3190d9b2f"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/cat_filter.py": {
+    "mtime": 1777847970.0460095,
+    "hash": "d10ea78ece95e7e323b8bc8d2504e5be"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/__init__.py": {
+    "mtime": 1777847970.0451474,
+    "hash": "4089fdfc0539def4c7e9987968c48ba1"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/js_filter.py": {
+    "mtime": 1777847970.0509477,
+    "hash": "8cad042be1c7f3e291da28dd915869e7"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/git_log.py": {
+    "mtime": 1777847970.048743,
+    "hash": "907cc8e39e9ac18e14c7513ed1059863"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/kubectl_filter.py": {
+    "mtime": 1777847970.0512888,
+    "hash": "6588972ea2a777fd197ad0847355562f"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/ls_filter.py": {
+    "mtime": 1777847970.0519023,
+    "hash": "5eb2fbe3b46d747a490e99c194f42f5d"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/git_status.py": {
+    "mtime": 1777847970.0496402,
+    "hash": "d9ab32bd593d6d0327d31db41bbec53b"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/python_filter.py": {
+    "mtime": 1777847970.0526435,
+    "hash": "6613cf16d22a9d0b756e1b362db945a1"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/gh_filter.py": {
+    "mtime": 1777847970.0475824,
+    "hash": "373db3e0b34e62f81a414a01f07cae20"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/terraform_filter.py": {
+    "mtime": 1777847970.054105,
+    "hash": "f2282850a54f79bde1940fbb110865d5"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/cloud_filter.py": {
+    "mtime": 1777847970.04633,
+    "hash": "c5e3f70f02885a681049f8ab28157b0f"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/dotnet_filter.py": {
+    "mtime": 1777847970.0471425,
+    "hash": "255e4d9a206225f3ef835cec4581fbde"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/go_filter.py": {
+    "mtime": 1777847970.05007,
+    "hash": "1357408b15d7199af8638d29a59f0b2a"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/pytest_filter.py": {
+    "mtime": 1777847970.0522788,
+    "hash": "3a352fe0384b91c2f2d70f37a826b2d6"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/cli_token_parse/filters/cargo_filter.py": {
+    "mtime": 1777847970.045684,
+    "hash": "9d67cbd7323a74ddd5e4dbba8577a574"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/dashboard/waste.py": {
+    "mtime": 1777851187.4394383,
+    "hash": "c1b91d1596c2cad2e6088ed58b93c039"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/dashboard/coach.py": {
+    "mtime": 1777851187.4381764,
+    "hash": "c24d8448f3d1ee6a6f181233d74cbfc9"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/dashboard/models.py": {
+    "mtime": 1777851187.4383826,
+    "hash": "b86fef8394c7e40c5bf112771b67bae4"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/dashboard/aggregator.py": {
+    "mtime": 1777851187.437932,
+    "hash": "7549b8e3f42c4d6540d97437513eafa2"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/dashboard/renderer.py": {
+    "mtime": 1777851187.439116,
+    "hash": "a60d71feb650d59396187e1cbf972b10"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/dashboard/__init__.py": {
+    "mtime": 1777851187.437681,
+    "hash": "c2ae7ba429e9584ebdd552bf635b87df"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/dashboard/pricing.py": {
+    "mtime": 1777851187.4385996,
+    "hash": "778554bad79bdd4052ca70da7127cfa3"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/dashboard/quality.py": {
+    "mtime": 1777851187.4388332,
+    "hash": "e501412b7ddcfbfe093df68cd2bf63ed"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/adapters/__init__.py": {
+    "mtime": 1777847166.2658303,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/adapters/code_graph.py": {
+    "mtime": 1777847166.2668371,
+    "hash": "befa02a1a0381482f9c27e161a2b478f"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/adapters/graphify.py": {
+    "mtime": 1777847166.268146,
+    "hash": "a9f027996e84e1ad5898ed8140f992be"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/sandbox/content_store.py": {
+    "mtime": 1777847166.2698486,
+    "hash": "a7629c2ebc1278307bf603f00d290520"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/sandbox/chunker.py": {
+    "mtime": 1777847166.2714896,
+    "hash": "fbca997b6c69647f63f44dcb1c81b4f9"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/sandbox/security.py": {
+    "mtime": 1777847166.2726479,
+    "hash": "5d089657fc5c1679be3f52cb9a1012d4"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/sandbox/__init__.py": {
+    "mtime": 1777847166.27328,
+    "hash": "1d5d87566d5a15d5cf0b4cf2ed9645c1"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/sandbox/executor.py": {
+    "mtime": 1777847166.2751503,
+    "hash": "dd8c0a2ae5d0cc512a83d928ae7c98ed"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/symbols/models.py": {
+    "mtime": 1777847166.2764516,
+    "hash": "8e82bd8f9444ba590c3497a2cc50f31c"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/symbols/__init__.py": {
+    "mtime": 1777847166.2773504,
+    "hash": "4025a93e9b6af870f73192fb14360a65"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/symbols/parsers.py": {
+    "mtime": 1777847166.2815235,
+    "hash": "f75df0b612633138ee45edb9de22152d"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/symbols/indexer.py": {
+    "mtime": 1777847166.284117,
+    "hash": "42bb96e6606b59862b65cfc230d6b9cb"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/symbols/queries.py": {
+    "mtime": 1777847166.2851048,
+    "hash": "91bd4a676a3e9c72eb89d520a43ac59e"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/communities.py": {
+    "mtime": 1777847166.141068,
+    "hash": "6414710227217ba190728b611c30f671"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/exports.py": {
+    "mtime": 1777847166.1434455,
+    "hash": "36cecc3020d8f563dde398f241cd8c8b"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/changes.py": {
+    "mtime": 1777847166.1454165,
+    "hash": "125b1e38b1da77b4ce7f7fb6a0073c8f"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/tsconfig_resolver.py": {
+    "mtime": 1777847166.1473048,
+    "hash": "c56d19d7a3dd085dc2e6413957aeea99"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/analysis.py": {
+    "mtime": 1777847166.1491902,
+    "hash": "1aeeb5ace4b7bf8a76e9c5df99f8d791"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/jedi_resolver.py": {
+    "mtime": 1777847166.1508393,
+    "hash": "33060f36b5efa53408041139e6aa7b98"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/refactor.py": {
+    "mtime": 1777847166.154312,
+    "hash": "ebc9cf2dd4518e80ec041dd75e8899cf"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/skills.py": {
+    "mtime": 1777847166.1590333,
+    "hash": "f549f15b597aad9c94d90bda1563bc20"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/memory.py": {
+    "mtime": 1777847166.1606004,
+    "hash": "32332dfc89fd23c903c6cc78ba5b4619"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/enrich.py": {
+    "mtime": 1777847166.1624095,
+    "hash": "be885c2787d9d2eb81de9f3c285f0e6e"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/registry.py": {
+    "mtime": 1777847166.1639328,
+    "hash": "795826b463877e450fdc2754b760a325"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/graph.py": {
+    "mtime": 1777847166.1696086,
+    "hash": "d41b940718e201b8efd9b43f1d3e7638"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/graph_diff.py": {
+    "mtime": 1777847166.1733553,
+    "hash": "dd3279d3a65880c5b4fb57d6cf5e54da"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/constants.py": {
+    "mtime": 1777847166.1744597,
+    "hash": "8421b95a6613a7b45d04690cfca30376"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/__init__.py": {
+    "mtime": 1777847166.1749432,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/rescript_resolver.py": {
+    "mtime": 1777847166.1764553,
+    "hash": "0bb51a5c1657b55be152fa198442b8c5"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/visualization.py": {
+    "mtime": 1777847166.1846926,
+    "hash": "c31c023b6597bbe446bdea0363fc27a0"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/prompts.py": {
+    "mtime": 1777847166.1876414,
+    "hash": "aa7020b51255884e41c952598713d526"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/parser.py": {
+    "mtime": 1777847166.2039523,
+    "hash": "7e17dc7ab12f5c2473c400f7945fadcc"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/embeddings.py": {
+    "mtime": 1777847166.207789,
+    "hash": "7745cbef9c5c597aa633ad0c9c12d9c1"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/migrations.py": {
+    "mtime": 1777847166.2093549,
+    "hash": "18def80377c489c4308f2ed12bbcd767"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/search.py": {
+    "mtime": 1777847166.2112753,
+    "hash": "5f324fe9bbbec1d4f2980e0dcb63a6f3"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/flows.py": {
+    "mtime": 1777847166.2141085,
+    "hash": "1d76b0c7868759d18549113166f6ceb7"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/postprocessing.py": {
+    "mtime": 1777847166.2152343,
+    "hash": "9e72c9dfb75402d03d0b072753750e6d"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/hints.py": {
+    "mtime": 1777847166.2173324,
+    "hash": "af5ef3d8391164ae1def84f556ceaa66"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/wiki.py": {
+    "mtime": 1777847166.2189953,
+    "hash": "56e37a80b4e28d610023b6abe24ec9ec"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/code_graph/incremental.py": {
+    "mtime": 1777847166.2232223,
+    "hash": "ca3779c26b73dee8981fd655b0fbe798"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/session/db.py": {
+    "mtime": 1777847166.224516,
+    "hash": "f2bcc4f97e760eacb20bee3b86932c13"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/session/hooks.py": {
+    "mtime": 1777847166.225823,
+    "hash": "3b57f9b1a4c8ee42744a7135f7a67aab"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/session/events.py": {
+    "mtime": 1777847166.227432,
+    "hash": "74c7309b43af2cd2ad88d628575027e7"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/session/__init__.py": {
+    "mtime": 1777847166.2282612,
+    "hash": "825c4f6539c4a3dcdad6225d2fd54844"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/session/snapshot.py": {
+    "mtime": 1777847166.2297034,
+    "hash": "6b5588139b0102bf749916545db5a2af"
+  },
+  "/Users/debashispaul/GIT/gathon/plan_telemetry.md": {
+    "mtime": 1777851187.436777,
+    "hash": "11ac9a7037c75cda6fe992f0adc13bee"
+  },
+  "/Users/debashispaul/GIT/gathon/README.md": {
+    "mtime": 1777851317.871139,
+    "hash": "941cb7f5c3584fb3e4ccbdb8fe1b1224"
+  },
+  "/Users/debashispaul/GIT/gathon/plan_refactor_rtk.md": {
+    "mtime": 1777847970.0423944,
+    "hash": "097dd3b70da3fb625f550e293a57060c"
+  },
+  "/Users/debashispaul/GIT/gathon/plan_refactor_crg.md": {
+    "mtime": 1777847177.1195192,
+    "hash": "f7264cdc70b91eac3037443ef04b4e7d"
+  },
+  "/Users/debashispaul/GIT/gathon/PLAN.md": {
+    "mtime": 1777847177.1203465,
+    "hash": "53c6442b802d24e1a226cbe9233ac3d5"
+  },
+  "/Users/debashispaul/GIT/gathon/benchmarks/QUICKSTART.md": {
+    "mtime": 1777847177.122733,
+    "hash": "2513027e8b7b4b859599551ad023ff43"
+  },
+  "/Users/debashispaul/GIT/gathon/benchmarks/README.md": {
+    "mtime": 1777847177.1234221,
+    "hash": "eb007f97d6f0c4c5dfc6f8b17d215624"
+  },
+  "/Users/debashispaul/GIT/gathon/benchmarks/SKILL.md": {
+    "mtime": 1777847177.124055,
+    "hash": "701b3f70be6387557b5c3547776baa7f"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/code-git-create-branch.md": {
+    "mtime": 1777847177.124416,
+    "hash": "2d21f0f64883d0d28134bebbbbce1611"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/explore-codebase.md": {
+    "mtime": 1777847177.1247733,
+    "hash": "e334b1248258a3d21b2836b3994ae586"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/review-pr.md": {
+    "mtime": 1777847177.1253264,
+    "hash": "27b44cd06babc777df68a7cc23024b41"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/build-graph.md": {
+    "mtime": 1777847177.1258328,
+    "hash": "7100672e6f1c1bfaaca5f6adcb263de5"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/explore-knowledge.md": {
+    "mtime": 1777847177.1263666,
+    "hash": "9b6c74d52e8fb57667a884cdd23a5b51"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/graphify-knowledge.md": {
+    "mtime": 1777847177.1269188,
+    "hash": "3042886f54708054e636ff810282d547"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/review-changes.md": {
+    "mtime": 1777847177.1274347,
+    "hash": "cb5e49f26238be5a2821b7edfa978965"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/debug-issue.md": {
+    "mtime": 1777847177.1280353,
+    "hash": "2127343cec055ff0bcc4a9b180efe331"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/review-delta.md": {
+    "mtime": 1777847177.1286712,
+    "hash": "5f7442947332c04b00c0f9e4e683ea8c"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/code-optmz-graphify.md": {
+    "mtime": 1777847177.1300468,
+    "hash": "c254dd1cdf83dc137714848b44ae0b0e"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/api-spec-analysis.md": {
+    "mtime": 1777847177.130904,
+    "hash": "a5e0d9f0fb3a877a7f2dfeef8ad6d4f3"
+  },
+  "/Users/debashispaul/GIT/gathon/skills/refactor-safely.md": {
+    "mtime": 1777847177.1313667,
+    "hash": "6f581a60ea4099f76ac5fa2b349a7b57"
+  },
+  "/Users/debashispaul/GIT/gathon/src/gathon/multimodal_graph/skill.md": {
+    "mtime": 1777847177.1319256,
+    "hash": "5e9e94e80b5e773ec4a30a05a08c762c"
+  },
+  "/Users/debashispaul/GIT/gathon/docs/data-flow.svg": {
+    "mtime": 1777851187.4357316,
+    "hash": "745bc44cddcbddfce310cc7935a02a11"
+  },
+  "/Users/debashispaul/GIT/gathon/docs/dashboard-arch.svg": {
+    "mtime": 1777851187.4351544,
+    "hash": "fee067403287683406eb73f87ed137ef"
+  },
+  "/Users/debashispaul/GIT/gathon/docs/arch-overview.svg": {
+    "mtime": 1777851187.4346008,
+    "hash": "f6043ebbfe25368c2aacb049c9dc518e"
+  }
+}
